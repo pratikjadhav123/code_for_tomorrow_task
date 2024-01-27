@@ -1,0 +1,22 @@
+/* BottomNavigation.css */
+
+.bottom-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bottom-navigation span {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .bottom-navigation span.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  

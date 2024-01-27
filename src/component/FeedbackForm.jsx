@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { submitFeedback } from '../redux/actions';
+import '../Styles/FeedbackForm.css'
 
 const FeedbackForm = () => {
   const dispatch = useDispatch();

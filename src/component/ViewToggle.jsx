@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleView } from '../redux/actions';
+import '../Styles/ViewToggle.css'
 
 const ViewToggle = () => {
   const dispatch = useDispatch();

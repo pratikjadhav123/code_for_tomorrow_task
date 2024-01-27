@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { removeCard } from '../redux/actions';
+import '../Styles/Card.css'
 
 const Card = ({ post }) => {
   const dispatch = useDispatch();

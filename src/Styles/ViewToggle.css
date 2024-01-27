@@ -1,0 +1,16 @@
+/* ViewToggle.css */
+
+.view-toggle {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .view-toggle:hover {
+    background-color: #218838;
+  }
+  
