@@ -1,6 +1,7 @@
 /* ViewToggle.css */
 
 .view-toggle {
+    /* Button styles */
     background-color: #28a745;
     color: #fff;
     border: none;
@@ -11,6 +12,7 @@
   }
   
   .view-toggle:hover {
+    /* Hover effect: Darker background on hover */
     background-color: #218838;
   }
   

@@ -1,6 +1,7 @@
 /* Card.css */
 
 .card {
+    /* Card container styles */
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -11,19 +12,23 @@
   }
   
   .card:hover {
+    /* Hover effect: Darker shadow on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   .card h3 {
+    /* Heading styles */
     margin-bottom: 10px;
     color: #333;
   }
   
   .card p {
+    /* Paragraph text styles */
     color: #666;
   }
   
   .remove-button {
+    /* Remove button styles */
     background-color: #dc3545;
     color: #fff;
     border: none;
@@ -34,6 +39,7 @@
   }
   
   .remove-button:hover {
+    /* Hover effect: Darker background on hover */
     background-color: #c82333;
   }
   

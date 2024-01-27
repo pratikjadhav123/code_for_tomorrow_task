@@ -1,12 +1,14 @@
 /* BottomNavigation.css */
 
 .bottom-navigation {
+    /* Container styles */
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
   
   .bottom-navigation span {
+    /* Page number styles */
     margin: 0 5px;
     cursor: pointer;
     padding: 5px 10px;
@@ -15,6 +17,9 @@
   }
   
   .bottom-navigation span.active {
+    /* Active page number styles */
+    font-weight: bold;
+    cursor: default;
     background-color: #007bff;
     color: #fff;
     border-color: #007bff;

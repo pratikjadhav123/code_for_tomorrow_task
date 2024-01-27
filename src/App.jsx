@@ -22,14 +22,15 @@ function App() {
         <p>Loading...</p>
       ) : (
         <div>
-          {/* <ViewToggle /> */}
-          <ViewToggle/>
-          <FeedbackForm />
+    <h1>ReactJs Application</h1>
+          
           <div className="card-list">
             {posts.map((post) => (
               <Card key={post.id} post={post} />
             ))}
             <BottomNavigation />
+            <ViewToggle/>
+          <FeedbackForm />
           </div>
         </div>
       )}
